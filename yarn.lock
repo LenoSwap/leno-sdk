@@ -1365,6 +1365,15 @@
     buffer "^5.4.3"
     seedrandom "^3.0.5"
 
+"@dexorzoswap-libs/dexorzo-swap-core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@dexorzoswap-libs/dexorzo-swap-core/-/dexorzo-swap-core-0.1.0.tgz#3de9f554fc4d3a29c86f95b6425675fe59c74b2e"
+  integrity sha512-9hJ3sZnCJhaHfq93pp7Y/aS7UC7otM5WYO2CHso/h5KyqIKHeSWOMvw2On0Kv6i8vpAKmcJlQcIZOjdjVft56A==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
 "@ethersproject/abi@5.0.7":
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/@ethersproject/abi/-/abi-5.0.7.tgz#79e52452bd3ca2956d0e1c964207a58ad1a0ee7b"
@@ -2318,15 +2327,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
-
-"@pancakeswap-libs/pancake-swap-core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/pancake-swap-core/-/pancake-swap-core-0.1.0.tgz#6957f1fa02170531a2ffbf95f2c0e145e9d21bc2"
-  integrity sha512-2jYiD1Ec3xAbP4JTa/Ozylx0xI4VwC7diCm5ak4AtGrIRhfRLSanaZSQdVpLigUnIFszma/4nVWtt3cup4Poxw==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
