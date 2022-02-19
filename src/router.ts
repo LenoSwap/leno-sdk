@@ -37,11 +37,11 @@ export interface TradeOptionsDeadline extends Omit<TradeOptions, 'ttl'> {
 }
 
 /**
- * The parameters to use in the call to the Dexorzo Router to execute a trade.
+ * The parameters to use in the call to the Digiswap Router to execute a trade.
  */
 export interface SwapParameters {
   /**
-   * The method to call on the Dexorzo Router.
+   * The method to call on the Digiswap Router.
    */
   methodName: string
   /**
@@ -61,7 +61,7 @@ function toHex(currencyAmount: CurrencyAmount) {
 const ZERO_HEX = '0x0'
 
 /**
- * Represents the Dexorzo Router, and has static methods for helping execute trades.
+ * Represents the Digiswap Router, and has static methods for helping execute trades.
  */
 export abstract class Router {
   /**

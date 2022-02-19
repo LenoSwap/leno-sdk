@@ -1,16 +1,16 @@
 {
-  "name": "@dexorzoswap/sdk",
+  "name": "@digiswap-core/sdk",
   "license": "MIT",
-  "version": "2.4.0",
-  "description": "🛠 An SDK for building applications on top of Dexorzoswap.",
+  "version": "2.4.4",
+  "description": "🛠 An SDK for building applications on top of DigiSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/dexorzoswap/dexorzo-swap-sdk.git",
+  "repository": "https://github.com/DigiSwap-Core/digiswap-sdk.git",
   "keywords": [
-    "dexorzoswap",
+    "digiswap",
     "bsc"
   ],
   "module": "dist/sdk.esm.js",
@@ -22,7 +22,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@dexorzoswap-libs/dexorzo-swap-core": "^0.1.0",
+    "@digiswap-core/digiswap-core": "^0.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
